@@ -23,7 +23,7 @@ class Carte extends React.Component {
     return (
       <div
         style={{
-          padding: '10px',
+          padding: '30px',
           backgroundColor: 'rgb(43, 49, 54)',
           minHeight: '100vh',
         }}

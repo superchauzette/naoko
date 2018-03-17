@@ -160,7 +160,6 @@ const IndexPage = () => (
     <div
       style={{
         backgroundColor: '#313539',
-
         color: 'white',
         padding: '60px',
       }}

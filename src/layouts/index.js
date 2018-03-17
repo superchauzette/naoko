@@ -28,6 +28,12 @@ const TemplateWrapper = ({ children }) => (
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
       ]}
+      link={[
+        {
+          href: 'https://fonts.googleapis.com/css?family=Unica+One',
+          rel: 'stylesheet',
+        },
+      ]}
     />
     <div style={styles.nav}>
       <Navigation />

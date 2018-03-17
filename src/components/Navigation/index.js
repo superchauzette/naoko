@@ -62,12 +62,10 @@ const Menu = () => (
       <CustomLink to="/" style={{ borderTop: '0.4px solid #313539' }}>
         Acceuil
       </CustomLink>
-      {/* <CustomLink>Commande en ligne</CustomLink> */}
       <CustomLink to="/carte/">Carte</CustomLink>
       <CustomLink to="/carte/">Menu</CustomLink>
       <CustomLink to="/carte/">Dessert</CustomLink>
       <CustomLink>Boisson</CustomLink>
-      <CustomLink>Promotion</CustomLink>
       <CustomLink>Contact</CustomLink>
     </ul>
   </div>
