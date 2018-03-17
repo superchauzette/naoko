@@ -53,9 +53,10 @@ export const ImageBackground = () => (
     </div>
 
     <div style={{ position: 'absolute', right: 40, top: 100 }}>
-      <p>
-        20 rue de Clery <br />
-        78570 Andresy
+      <p style={{ textAlign: 'right' }}>
+        Centre commercial des charvaux<br />
+        55 Avenue des robaresses<br />
+        78570 Andrésy
       </p>
     </div>
 
