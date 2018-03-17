@@ -24,13 +24,14 @@ class Carte extends React.Component {
       <div
         style={{
           padding: '10px',
-          // backgroundColor: '#2b3136',
+          backgroundColor: 'rgb(43, 49, 54)',
           minHeight: '100vh',
         }}
       >
         <h1 style={{ color: '#999' }}>Carte</h1>
-
-        <Nav navData={navData} onClick={this.onNavigation} />
+        <div style={{ marginBottom: '20px' }}>
+          <Nav navData={navData} onClick={this.onNavigation} />
+        </div>
         <Plats plats={platsSelected} />
       </div>
     )
