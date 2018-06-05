@@ -60,7 +60,7 @@ const Menu = () => (
       }}
     >
       <CustomLink to="/" style={{ borderTop: '0.4px solid #313539' }}>
-        Acceuil
+        Accueil
       </CustomLink>
       <CustomLink to="/carte/">Carte</CustomLink>
       <CustomLink to="/carte/">Menu</CustomLink>
