@@ -10,7 +10,7 @@ const Plats = ({ plats }) => (
     }}
   >
     {plats.map(plat => (
-      <div style={{ marginRight: '10px', marginBottom: '15px', width: '24%' }}>
+      <div style={{ marginRight: '10px', marginBottom: '25px', width: '22%' }}>
         <Plat plat={plat} />
       </div>
     ))}

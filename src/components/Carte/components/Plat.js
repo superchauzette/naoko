@@ -11,6 +11,7 @@ const Plat = ({ plat }) => (
       padding: '15px',
       boxShadow: 'inset 0 0 1px 0 rgba(0,0,0,0.18)',
       backgroundColor: 'white',
+      borderRadius: '5px'
     }}
   >
     <img src={plat.img} />

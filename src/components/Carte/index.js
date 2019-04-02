@@ -8,6 +8,14 @@ const navData = [
   { key: 'horsOeuvre', label: "Hors d'Oeuvre" },
   { key: 'sushi', label: 'Sushi par paire' },
   { key: 'sashimi', label: 'Sashimi par 10pcs' },
+  {
+    key: 'californiaRoll',
+    label: (
+      <p style={{ textAlign: 'center' }}>
+        california Roll <br />par 6 pièces
+      </p>
+    ),
+  },
 ]
 
 class Carte extends React.Component {

@@ -60,13 +60,13 @@ const Menu = () => (
       }}
     >
       <CustomLink to="/" style={{ borderTop: '0.4px solid #313539' }}>
-        Accueil
+        Acceuil
       </CustomLink>
-      <CustomLink to="/carte/">Carte</CustomLink>
-      <CustomLink to="/carte/">Menu</CustomLink>
-      <CustomLink to="/carte/">Dessert</CustomLink>
-      <CustomLink>Boisson</CustomLink>
-      <CustomLink>Contact</CustomLink>
+      <CustomLink to="/carte">Carte</CustomLink>
+      <CustomLink to="/menu">Menu</CustomLink>
+      <CustomLink to="/dessert">Dessert</CustomLink>
+      <CustomLink to="/boisson">Boisson</CustomLink>
+      <CustomLink to="/contact">Contact</CustomLink>
     </ul>
   </div>
 )
